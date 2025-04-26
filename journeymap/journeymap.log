@@ -1,12 +1,12 @@
-[15:51:13] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[15:51:13] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[15:51:13] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[15:51:13] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[15:51:13] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[15:51:13] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
-[15:51:13] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[15:51:13] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[15:51:14] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.8, built with forge 1.18.2-40.1.86
+[16:07:08] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[16:07:08] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[16:07:08] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[16:07:08] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[16:07:08] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[16:07:08] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
+[16:07:08] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[16:07:09] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[16:07:09] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.8, built with forge 1.18.2-40.1.86
 forge: 40.2.21
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -24,20 +24,129 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.8, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.8, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.8, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.8, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[15:51:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[15:51:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[15:51:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[15:51:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[15:51:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[15:51:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[15:51:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[15:51:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[15:51:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[15:51:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[15:51:14] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 444.04ms
-[15:52:03] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[15:52:03] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[15:52:03] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[15:52:03] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: W:\Users\WilliamBackup\AppData\Roaming\ModrinthApp\profiles\Vault%20Hunters%203rd%20Edition%20(3)\mods\journeymap-1.18.2-5.9.8-forge.jar\assets\journeymap\theme\flat
-[15:52:03] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[15:52:03] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 19.83ms
+[16:07:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[16:07:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[16:07:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[16:07:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[16:07:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[16:07:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[16:07:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[16:07:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[16:07:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[16:07:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[16:07:09] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 211.33ms
+[16:07:15] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[16:07:15] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[16:07:15] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[16:07:15] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: W:\Users\WilliamBackup\AppData\Roaming\ModrinthApp\profiles\Vault%20Hunters%203rd%20Edition%20(3)\mods\journeymap-1.18.2-5.9.8-forge.jar\assets\journeymap\theme\flat
+[16:07:15] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[16:07:15] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 22.52ms
+[16:10:41] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[16:10:42] [Render thread/ERROR] [GridRenderer] Error Creating new UIState: 
+java.lang.NullPointerException: Cannot read field "dimension" because "this.mapType" is null
+	at journeymap.client.render.map.GridRenderer.updateUIState(GridRenderer.java:679) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.ui.minimap.MiniMap.updateUIState(MiniMap.java:122) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.ui.minimap.MiniMap.updateDisplayVars(MiniMap.java:821) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.ui.minimap.MiniMap.reset(MiniMap.java:727) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.JourneymapClient.reset(JourneymapClient.java:640) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.JourneymapClient.startMapping(JourneymapClient.java:537) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.task.main.MappingMonitorTask.perform(MappingMonitorTask.java:78) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.task.main.MainTaskController.performTasks(MainTaskController.java:83) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.JourneymapClient.performMainThreadTasks(JourneymapClient.java:661) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.event.handlers.StateTickHandler.onClientTick(StateTickHandler.java:34) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.event.forge.ForgeClientTickEvent.onClientTick(ForgeClientTickEvent.java:23) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at net.minecraftforge.eventbus.ASMEventHandler_3036_ForgeClientTickEvent_onClientTick_ClientTickEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%2339!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%2339!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%2339!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.onPreClientTick(ForgeEventFactory.java:916) ~[forge-1.18.2-40.2.21-universal.jar%23414!/:?]
+	at net.minecraft.client.Minecraft.m_91398_(Minecraft.java:1621) ~[client-1.18.2-20220404.173914-srg.jar%23409!/:?]
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1021) ~[client-1.18.2-20220404.173914-srg.jar%23409!/:?]
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:665) ~[client-1.18.2-20220404.173914-srg.jar%23409!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[client-1.18.2-20220404.173914-srg.jar%23409!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31) ~[fmlloader-1.18.2-40.2.21.jar%239!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
+[16:10:42] [Render thread/ERROR] [GridRenderer] Error Creating new UIState: 
+java.lang.NullPointerException: Cannot read field "dimension" because "this.mapType" is null
+	at journeymap.client.render.map.GridRenderer.updateUIState(GridRenderer.java:679) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.ui.minimap.MiniMap.updateUIState(MiniMap.java:122) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.ui.minimap.MiniMap.updateDisplayVars(MiniMap.java:821) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.ui.minimap.MiniMap.reset(MiniMap.java:727) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.ui.UIManager.reset(UIManager.java:650) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.JourneymapClient.reset(JourneymapClient.java:641) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.JourneymapClient.startMapping(JourneymapClient.java:537) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.task.main.MappingMonitorTask.perform(MappingMonitorTask.java:78) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.task.main.MainTaskController.performTasks(MainTaskController.java:83) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.JourneymapClient.performMainThreadTasks(JourneymapClient.java:661) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.event.handlers.StateTickHandler.onClientTick(StateTickHandler.java:34) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.event.forge.ForgeClientTickEvent.onClientTick(ForgeClientTickEvent.java:23) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at net.minecraftforge.eventbus.ASMEventHandler_3036_ForgeClientTickEvent_onClientTick_ClientTickEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%2339!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%2339!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%2339!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.onPreClientTick(ForgeEventFactory.java:916) ~[forge-1.18.2-40.2.21-universal.jar%23414!/:?]
+	at net.minecraft.client.Minecraft.m_91398_(Minecraft.java:1621) ~[client-1.18.2-20220404.173914-srg.jar%23409!/:?]
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1021) ~[client-1.18.2-20220404.173914-srg.jar%23409!/:?]
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:665) ~[client-1.18.2-20220404.173914-srg.jar%23409!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[client-1.18.2-20220404.173914-srg.jar%23409!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31) ~[fmlloader-1.18.2-40.2.21.jar%239!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
+[16:10:42] [Render thread/INFO] [WaypointStore] Loaded 63 waypoints from W:\Users\WilliamBackup\AppData\Roaming\ModrinthApp\profiles\Vault Hunters 3rd Edition (3)\journeymap\data\mp\GC~Public~IP\waypoints
+[16:10:42] [Render thread/INFO] [JourneymapClient] Mapping started in W:\Users\WilliamBackup\AppData\Roaming\ModrinthApp\profiles\Vault Hunters 3rd Edition (3)\journeymap\data\mp\GC~Public~IP\the_vault~vault_a7a8e045~4321~4ae8~90ba~2222b5fc90b2. Memory: 6200MB total, 1286MB free 
+[16:10:42] [Render thread/ERROR] [GridRenderer] Error Creating new UIState: 
+java.lang.NullPointerException: Cannot read field "dimension" because "this.mapType" is null
+	at journeymap.client.render.map.GridRenderer.updateUIState(GridRenderer.java:679) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.ui.minimap.MiniMap.updateUIState(MiniMap.java:122) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.ui.minimap.MiniMap.updateDisplayVars(MiniMap.java:821) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.ui.minimap.MiniMap.reset(MiniMap.java:727) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.JourneymapClient.startMapping(JourneymapClient.java:559) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.task.main.MappingMonitorTask.perform(MappingMonitorTask.java:78) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.task.main.MainTaskController.performTasks(MainTaskController.java:83) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.JourneymapClient.performMainThreadTasks(JourneymapClient.java:661) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.event.handlers.StateTickHandler.onClientTick(StateTickHandler.java:34) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at journeymap.client.event.forge.ForgeClientTickEvent.onClientTick(ForgeClientTickEvent.java:23) ~[journeymap-1.18.2-5.9.8-forge.jar%23233!/:1.18.2-5.9.8]
+	at net.minecraftforge.eventbus.ASMEventHandler_3036_ForgeClientTickEvent_onClientTick_ClientTickEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%2339!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%2339!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%2339!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.onPreClientTick(ForgeEventFactory.java:916) ~[forge-1.18.2-40.2.21-universal.jar%23414!/:?]
+	at net.minecraft.client.Minecraft.m_91398_(Minecraft.java:1621) ~[client-1.18.2-20220404.173914-srg.jar%23409!/:?]
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1021) ~[client-1.18.2-20220404.173914-srg.jar%23409!/:?]
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:665) ~[client-1.18.2-20220404.173914-srg.jar%23409!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[client-1.18.2-20220404.173914-srg.jar%23409!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31) ~[fmlloader-1.18.2-40.2.21.jar%239!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2342!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
+[16:17:23] [Render thread/INFO] [JourneymapClient] Mapping halted in W:\Users\WilliamBackup\AppData\Roaming\ModrinthApp\profiles\Vault Hunters 3rd Edition (3)\journeymap\data\mp\GC~Public~IP\the_vault:vault_a7a8e045-4321-4ae8-90ba-2222b5fc90b2
