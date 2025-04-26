@@ -1,0 +1,80 @@
+
+[Foxcrows]
+	#FOXCROW LIKED ITEMS
+	#A list of items which foxcrows like that can be be traded in exchange for a foxcrow's carried item.
+	#Liked items provide some positive reinforcement for a trade, but not as much as a loved item.
+	#They can also be used to tame a foxcrow, but provide reduced effectiveness compared to loved items.
+	foxcrow_liked_items = ["minecraft:sweet_berries", "minecraft:glow_berries", "minecraft:rabbit", "minecraft:cooked_rabbit", "minecraft:bread", "foxcrows:corn_ear", "foxcrows:corn_on_the_cob"]
+	#
+	#FOXCROW LOVED ITEMS
+	#A list of items which foxcrows love that can be be traded in exchange for a foxcrow's carried item.
+	#Loved items provide a significant amount of positive reinforcement for a trade, even more than a liked item.
+	#They can also be used to tame a foxcrow, and provide increased effectiveness compared to liked items.
+	foxcrow_loved_items = ["minecraft:pumpkin_pie", "minecraft:rabbit_stew", "foxcrows:cornbread", "foxcrows:sweet_berry_cornbread", "foxcrows:bowl_of_popcorn"]
+	#
+	#PLAYER_STEAL_WHITELIST
+	#A list of items which foxcrows can steal from players.
+	#It is advisable not to put anything on this list that you find too valuable to steal.
+	#Please note that food items may be eaten by the foxcrow.
+	player_steal_whitelist = ["minecraft:emerald", "minecraft:diamond", "minecraft:gold_ingot", "minecraft:raw_gold", "minecraft:iron_ingot", "minecraft:raw_iron", "minecraft:copper_ingot", "minecraft:raw_copper", "minecraft:redstone"]
+	#
+	#FOXCROW COLD BIOMES
+	#A list of biomes that are considered 'cold' for foxcrow spawning.
+	#Foxcrows which spawn in cold biomes (naturally or from eggs) will inherit the cold biome color set and pattern.
+	#Baby foxcrows which are born in cold biomes have a rare chance of mutating in the cold biome color set or pattern, too.
+	#Note that adding biomes to this list will not necessarily make foxcrows SPAWN there.  To edit spawn biomes, refer to the spawning section
+	foxcrow_cold_biomes = ["minecraft:snowy_plains", "minecraft:ice_spikes", "minecraft:snowy_taiga", "minecraft:grove", "minecraft:jagged_peaks", "minecraft:snowy_slopes", "minecraft:frozen_peaks", "minecraft:frozen_river", "minecraft:snowy_beach", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"]
+	#
+	#FOXCROW ARID BIOMES
+	#A list of biomes that are considered 'arid' for foxcrow spawning.
+	#Foxcrows which spawn in arid biomes (naturally or from eggs) will inherit the arid biome color set and pattern.
+	#Baby foxcrows which are born in arid biomes have a rare chance of mutating in the arid biome color set or pattern, too.
+	#Note that adding biomes to this list will not necessarily make foxcrows SPAWN there.  To edit spawn biomes, refer to the spawning section
+	foxcrow_arid_biomes = ["minecraft:desert", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:windswept_savanna", "minecraft:badlands", "minecraft:eroded_badlands", "minecraft:wooded_badlands"]
+
+	[Foxcrows.Spawning]
+		#COMMON BIOMES
+		#The spawn rate for foxcrows in common biomes, as defined by the common biome list.
+		#Range: 0 ~ 1000
+		common_spawn_weight = 16
+		#The minimum pack size for foxcrows in common biomes, as defined by the common biome list.
+		#Please note that this should always be smaller than the maximum.
+		#Range: 0 ~ 10
+		common_pack_min = 2
+		#The maximum pack size for foxcrows in common biomes, as defined by the common biome list.
+		#Please note that this should always be larger than the minimum.
+		#Range: 1 ~ 10
+		common_pack_max = 4
+		#A list of biomes which should use the common biome settings, as defined above.
+		common_biomes = ["minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga", "minecraft:ice_spikes", "minecraft:wooded_badlands"]
+		#
+		#UNCOMMON BIOMES
+		#The spawn rate for foxcrows in uncommon biomes, as defined by the uncommon biome list.
+		#Range: 0 ~ 1000
+		uncommon_spawn_weight = 8
+		#The minimum pack size for foxcrows in uncommon biomes, as defined by the uncommon biome list.
+		#Please note that this should always be smaller than the maximum.
+		#Range: 0 ~ 10
+		uncommon_pack_min = 1
+		#The maximum pack size for foxcrows in uncommon biomes, as defined by the uncommon biome list.
+		#Please note that this should always be larger than the minimum.
+		#Range: 1 ~ 10
+		uncommon_pack_max = 3
+		#A list of biomes which should use the uncommon biome settings, as defined above.
+		uncommon_biomes = ["minecraft:grove", "minecraft:meadow", "minecraft:snowy_taiga", "minecraft:taiga"]
+		#
+		#RARE BIOMES
+		#The spawn rate for foxcrows in rare biomes, as defined by the rare biome list.
+		#Range: 0 ~ 1000
+		rare_spawn_weight = 4
+		#The minimum pack size for foxcrows in rare biomes, as defined by the rare biome list.
+		#Please note that this should always be smaller than the maximum.
+		#Range: 0 ~ 10
+		rare_pack_min = 0
+		#The maximum pack size for foxcrows in rare biomes, as defined by the rare biome list.
+		#Please note that this should always be larger than the minimum.
+		#Range: 1 ~ 10
+		rare_pack_max = 1
+		#A list of biomes which should use the rare biome settings, as defined above.
+		rare_biomes = ["minecraft:desert", "minecraft:snowy_plains"]
+

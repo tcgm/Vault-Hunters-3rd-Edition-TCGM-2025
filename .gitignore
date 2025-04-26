@@ -18,6 +18,12 @@ XaeroWaypoints_BACKUP*/
 Distant_Horizons*/
 debug/
 screenshots/
+XaeroWorldMap/
+XaeroWaypoints/
+unusedmods/
+config/yes_steve_model/cache/
+config/WildfireGender/
+mods/zmedievalmusic*.jar
 
 patchouli_data.json
 options.txt

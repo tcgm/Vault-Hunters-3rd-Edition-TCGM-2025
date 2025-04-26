@@ -1,0 +1,21 @@
+#Enables automatic switching to a third-person view while holding the pole
+switchToThirdPersonView = true
+#Switches between one key 'moveForward' and two keys 'moveForward/moveBackward' controls
+basicSlidingControl = false
+
+[SlidingMechanics]
+	#Enables/disables sliding mechanics for this type of blocks
+	GlassPanes = true
+	#Enables/disables sliding mechanics for this type of blocks
+	WoodenFences = true
+	#Enables/disables sliding mechanics for this type of blocks
+	IronBars = true
+	#Enables/disables sliding mechanics for this type of blocks
+	Chains = true
+	#Enables/disables sliding mechanics for this type of blocks
+	BambooPlants = true
+	#Enables/disables sliding mechanics for this type of blocks
+	ModdedFences = true
+	#Enables/disables sliding mechanics for this type of blocks
+	Posts = true
+

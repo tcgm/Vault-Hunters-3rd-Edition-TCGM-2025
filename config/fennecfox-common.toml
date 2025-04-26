@@ -1,0 +1,21 @@
+
+[general]
+
+	#biome settings
+	[general.ff]
+		#
+		#Biome name where the Fennec Fox should spawn
+		biome_name = "minecraft:desert"
+
+		#Spawn rate settings
+		[general.ff.fennecfox]
+			#Spawn Chance
+			#Range: > 0
+			weight = 4
+			#Mob Spawn Minimum Number
+			#Range: > 0
+			min = 1
+			#Mob Spawn Maximum Number
+			#Range: > 0
+			max = 2
+
